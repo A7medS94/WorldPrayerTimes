@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C02D9A6220F13FD006DD7D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C02D9A5220F13FD006DD7D8 /* MapKit.framework */; };
+		8C02D9A8220F20DB006DD7D8 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C02D9A7220F20DB006DD7D8 /* LocationDelegate.swift */; };
+		8C02D9AA220F2173006DD7D8 /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C02D9A9220F2173006DD7D8 /* CLLocation+Extension.swift */; };
+		8C02D9AC220F2234006DD7D8 /* UserDefauts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C02D9AB220F2234006DD7D8 /* UserDefauts+Extensions.swift */; };
+		8C26C1592201CD8D008B7C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C26C1582201CD8D008B7C12 /* AppDelegate.swift */; };
+		8C26C15B2201CD8D008B7C12 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C26C15A2201CD8D008B7C12 /* Main.swift */; };
+		8C26C15E2201CD8D008B7C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C26C15C2201CD8D008B7C12 /* Main.storyboard */; };
+		8C26C1602201CD8E008B7C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C26C15F2201CD8E008B7C12 /* Assets.xcassets */; };
+		8C26C1632201CD8E008B7C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C26C1612201CD8E008B7C12 /* LaunchScreen.storyboard */; };
+		8C30353A2201EC8900C186A7 /* Prayer Time Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3035392201EC8900C186A7 /* Prayer Time Struct.swift */; };
+		8C30353C2201ECD500C186A7 /* Prayer Times Data Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30353B2201ECD500C186A7 /* Prayer Times Data Handler.swift */; };
+		8C30F605220362AB00842A01 /* VarsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30F604220362AB00842A01 /* VarsConstant.swift */; };
+		8C30F60722036C1300842A01 /* TimesTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30F60622036C1300842A01 /* TimesTableViewVC.swift */; };
+		8C4A08A7220EFD5C00F81277 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A08A6220EFD5C00F81277 /* Reachability.swift */; };
+		8C4A08A9220F087300F81277 /* QiblaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A08A8220F087300F81277 /* QiblaVC.swift */; };
+		8C83235D221069BE00A9DA70 /* CountriesCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83235C221069BE00A9DA70 /* CountriesCells.swift */; };
+		8CF96CDC2202E7EE0013AEA2 /* DisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF96CDB2202E7EE0013AEA2 /* DisplayVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C02D9A5220F13FD006DD7D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8C02D9A7220F20DB006DD7D8 /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		8C02D9A9220F2173006DD7D8 /* CLLocation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		8C02D9AB220F2234006DD7D8 /* UserDefauts+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefauts+Extensions.swift"; sourceTree = "<group>"; };
+		8C26C1552201CD8D008B7C12 /* WorldPrayerTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldPrayerTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C26C1582201CD8D008B7C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C26C15A2201CD8D008B7C12 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		8C26C15D2201CD8D008B7C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C26C15F2201CD8E008B7C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C26C1622201CD8E008B7C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C26C1642201CD8E008B7C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3035392201EC8900C186A7 /* Prayer Time Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prayer Time Struct.swift"; sourceTree = "<group>"; };
+		8C30353B2201ECD500C186A7 /* Prayer Times Data Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prayer Times Data Handler.swift"; sourceTree = "<group>"; };
+		8C30F604220362AB00842A01 /* VarsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarsConstant.swift; sourceTree = "<group>"; };
+		8C30F60622036C1300842A01 /* TimesTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesTableViewVC.swift; sourceTree = "<group>"; };
+		8C4A08A6220EFD5C00F81277 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8C4A08A8220F087300F81277 /* QiblaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaVC.swift; sourceTree = "<group>"; };
+		8C83235C221069BE00A9DA70 /* CountriesCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesCells.swift; sourceTree = "<group>"; };
+		8CF96CDB2202E7EE0013AEA2 /* DisplayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C26C1522201CD8D008B7C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C02D9A6220F13FD006DD7D8 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C02D9A4220F13FD006DD7D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C02D9A5220F13FD006DD7D8 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C26C14C2201CD8D008B7C12 = {
+			isa = PBXGroup;
+			children = (
+				8C26C1572201CD8D008B7C12 /* WorldPrayerTimes */,
+				8C26C1562201CD8D008B7C12 /* Products */,
+				8C02D9A4220F13FD006DD7D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C26C1562201CD8D008B7C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C26C1552201CD8D008B7C12 /* WorldPrayerTimes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C26C1572201CD8D008B7C12 /* WorldPrayerTimes */ = {
+			isa = PBXGroup;
+			children = (
+				8CD91B0F220EFC5E009202CE /* Validations */,
+				8C30F6032203628500842A01 /* Constants */,
+				8C3035382201EC3100C186A7 /* Json */,
+				8C3035372201DF5100C186A7 /* View Controllers */,
+				8C26C1582201CD8D008B7C12 /* AppDelegate.swift */,
+				8C26C15C2201CD8D008B7C12 /* Main.storyboard */,
+				8C26C15F2201CD8E008B7C12 /* Assets.xcassets */,
+				8C26C1612201CD8E008B7C12 /* LaunchScreen.storyboard */,
+				8C26C1642201CD8E008B7C12 /* Info.plist */,
+			);
+			path = WorldPrayerTimes;
+			sourceTree = "<group>";
+		};
+		8C3035372201DF5100C186A7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C26C15A2201CD8D008B7C12 /* Main.swift */,
+				8CF96CDB2202E7EE0013AEA2 /* DisplayVC.swift */,
+				8C30F60622036C1300842A01 /* TimesTableViewVC.swift */,
+				8C4A08A8220F087300F81277 /* QiblaVC.swift */,
+				8C02D9A7220F20DB006DD7D8 /* LocationDelegate.swift */,
+				8C02D9A9220F2173006DD7D8 /* CLLocation+Extension.swift */,
+				8C02D9AB220F2234006DD7D8 /* UserDefauts+Extensions.swift */,
+				8C83235C221069BE00A9DA70 /* CountriesCells.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8C3035382201EC3100C186A7 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				8C3035392201EC8900C186A7 /* Prayer Time Struct.swift */,
+				8C30353B2201ECD500C186A7 /* Prayer Times Data Handler.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		8C30F6032203628500842A01 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8C30F604220362AB00842A01 /* VarsConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8CD91B0F220EFC5E009202CE /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				8C4A08A6220EFD5C00F81277 /* Reachability.swift */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C26C1542201CD8D008B7C12 /* WorldPrayerTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C26C1672201CD8E008B7C12 /* Build configuration list for PBXNativeTarget "WorldPrayerTimes" */;
+			buildPhases = (
+				8C26C1512201CD8D008B7C12 /* Sources */,
+				8C26C1522201CD8D008B7C12 /* Frameworks */,
+				8C26C1532201CD8D008B7C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldPrayerTimes;
+			productName = WorldPrayerTimes;
+			productReference = 8C26C1552201CD8D008B7C12 /* WorldPrayerTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C26C14D2201CD8D008B7C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ahmed Samir";
+				TargetAttributes = {
+					8C26C1542201CD8D008B7C12 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8C26C1502201CD8D008B7C12 /* Build configuration list for PBXProject "WorldPrayerTimes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C26C14C2201CD8D008B7C12;
+			productRefGroup = 8C26C1562201CD8D008B7C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C26C1542201CD8D008B7C12 /* WorldPrayerTimes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C26C1532201CD8D008B7C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C26C1632201CD8E008B7C12 /* LaunchScreen.storyboard in Resources */,
+				8C26C1602201CD8E008B7C12 /* Assets.xcassets in Resources */,
+				8C26C15E2201CD8D008B7C12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C26C1512201CD8D008B7C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C26C15B2201CD8D008B7C12 /* Main.swift in Sources */,
+				8CF96CDC2202E7EE0013AEA2 /* DisplayVC.swift in Sources */,
+				8C30F60722036C1300842A01 /* TimesTableViewVC.swift in Sources */,
+				8C30353A2201EC8900C186A7 /* Prayer Time Struct.swift in Sources */,
+				8C30F605220362AB00842A01 /* VarsConstant.swift in Sources */,
+				8C02D9AC220F2234006DD7D8 /* UserDefauts+Extensions.swift in Sources */,
+				8C02D9AA220F2173006DD7D8 /* CLLocation+Extension.swift in Sources */,
+				8C4A08A7220EFD5C00F81277 /* Reachability.swift in Sources */,
+				8C83235D221069BE00A9DA70 /* CountriesCells.swift in Sources */,
+				8C26C1592201CD8D008B7C12 /* AppDelegate.swift in Sources */,
+				8C30353C2201ECD500C186A7 /* Prayer Times Data Handler.swift in Sources */,
+				8C4A08A9220F087300F81277 /* QiblaVC.swift in Sources */,
+				8C02D9A8220F20DB006DD7D8 /* LocationDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C26C15C2201CD8D008B7C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C26C15D2201CD8D008B7C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C26C1612201CD8E008B7C12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C26C1622201CD8E008B7C12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C26C1652201CD8E008B7C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C26C1662201CD8E008B7C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C26C1682201CD8E008B7C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXZT49N399;
+				INFOPLIST_FILE = WorldPrayerTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedSamir.WorldPrayerTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C26C1692201CD8E008B7C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXZT49N399;
+				INFOPLIST_FILE = WorldPrayerTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedSamir.WorldPrayerTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C26C1502201CD8D008B7C12 /* Build configuration list for PBXProject "WorldPrayerTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C26C1652201CD8E008B7C12 /* Debug */,
+				8C26C1662201CD8E008B7C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C26C1672201CD8E008B7C12 /* Build configuration list for PBXNativeTarget "WorldPrayerTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C26C1682201CD8E008B7C12 /* Debug */,
+				8C26C1692201CD8E008B7C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C26C14D2201CD8D008B7C12 /* Project object */;
+}
