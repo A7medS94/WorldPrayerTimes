@@ -6,4 +6,4 @@ Easy way to get prayer times over the world from API using URLSession &amp; Qibl
 
 
 # Auther
-[A7medS94](https://github.com/A7medS94)
+My GitHub Profile: [A7medS94](https://github.com/A7medS94), Also you can follow me on Twitter: [A7medS94](https://twitter.com/A7medS94)
